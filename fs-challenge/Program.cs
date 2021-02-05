@@ -70,7 +70,7 @@ namespace fschallenge
                 if (testMeasurements == null)
                 {
                     unfilteredResult.AppendLine(string.Format("Invalid Test (ID: {0})", testID));
-                    filteredResult.AppendLine(string.Format("Inavlaid Test (ID: {0})", testID));
+                    filteredResult.AppendLine(string.Format("Invalid Test (ID: {0})", testID));
                     continue;
                 }
 
